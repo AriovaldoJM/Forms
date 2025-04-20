@@ -1,0 +1,39 @@
+{
+    "components": [
+      {
+        "label": "Nome Cliente",
+        "type": "textfield",
+        "layout": {
+          "row": "Row_1gcc52m",
+          "columns": null
+        },
+        "id": "Field_1mzcawp",
+        "key": "cliente",
+        "validate": {
+          "required": true
+        }
+      },
+      {
+        "label": "Modalidade",
+        "type": "textfield",
+        "layout": {
+          "row": "Row_1k6bwpz",
+          "columns": null
+        },
+        "id": "Field_0rz64ae",
+        "key": "modalidade",
+        "validate": {
+          "pattern": "Transporte|Transporte e Armazenagem"
+        }
+      }
+    ],
+    "type": "default",
+    "id": "cadastro-de-cliente",
+    "executionPlatform": "Camunda Cloud",
+    "executionPlatformVersion": "8.7.0",
+    "exporter": {
+      "name": "Camunda Modeler",
+      "version": "5.34.0"
+    },
+    "schemaVersion": 18
+  }
